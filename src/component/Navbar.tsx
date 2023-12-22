@@ -27,11 +27,18 @@ export const Navbar = () => {
       <div className={classes.inner}>
         <Group>
           <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm" />
-          <Anchor underline="never" fw={'bold'} c={'black'}>melonpundesign</Anchor>
+          <Anchor fz={"lg"} underline="never" fw={"bold"} c={"black"}>
+            melonpundesign
+          </Anchor>
         </Group>
 
         <Group>
-          <Group ml={50} gap={5} className={classes.links} visibleFrom="sm">
+          <Group
+            ml={50}
+            gap={5}
+            className={classes.links}
+            visibleFrom="sm"
+          >
             {items}
           </Group>
         </Group>
