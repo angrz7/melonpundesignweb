@@ -1,13 +1,14 @@
 import "@mantine/core/styles.css";
-import { Box, MantineProvider } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
 import { Navbar } from "./component/Navbar";
+import { Page } from "./layout/Page";
 
 export default function App() {
   return (
     <MantineProvider>
-      <Box>
+      <Page>
         <Navbar />
-      </Box>
+      </Page>
     </MantineProvider>
   );
 }
