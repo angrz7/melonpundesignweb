@@ -7,7 +7,7 @@ interface PageProps {
 
 export const Page = ({ children }: PageProps) => {
   return (
-    <Box px={'5rem'} pt={'2rem'}>
+    <Box px={'7rem'} pt={'5rem'}>
       {children}
     </Box>
   )

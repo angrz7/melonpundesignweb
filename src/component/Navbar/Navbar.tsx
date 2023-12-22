@@ -27,7 +27,7 @@ export const Navbar = () => {
       <div className={classes.inner}>
         <Group>
           <Burger opened={opened} onClick={toggle} size="sm" hiddenFrom="sm" />
-          <Anchor fz={"lg"} underline="never" fw={"bold"} c={"black"}>
+          <Anchor fz={"2rem"} underline="never" fw={"bold"} c={"black"}>
             melonpundesign
           </Anchor>
         </Group>
@@ -38,6 +38,7 @@ export const Navbar = () => {
             gap={5}
             className={classes.links}
             visibleFrom="sm"
+            fz={"1.5rem"}
           >
             {items}
           </Group>

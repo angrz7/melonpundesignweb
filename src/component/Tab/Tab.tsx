@@ -1,4 +1,4 @@
-import { Tabs } from "@mantine/core";
+import { Tabs, Text } from "@mantine/core";
 import React from "react";
 
 interface Tab {
@@ -22,7 +22,9 @@ export const TabComponent = (
             <Tabs.Tab key={tab.label} mb={'xl'} fw={'bold'} value={tab.label} c={'black'} fz={'md'} p={0} style={{
               backgroundColor: 'transparent',
             }}>
+              <Text fw={'bold'}>
               {tab.label}
+              </Text>
             </Tabs.Tab>
           ))
         }
