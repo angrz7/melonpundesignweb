@@ -4,6 +4,7 @@ import { Navbar } from "./component/Navbar/Navbar";
 import { Page } from "./layout/Page";
 import { TabComponent } from "./component/Tab/Tab";
 import { Home } from "./pages/Home";
+import { Footer } from "./component/Footer/Footer";
 
 const theme = createTheme({
   components: {
@@ -26,6 +27,7 @@ export default function App() {
             { label: "home", content: <Home /> },
           ]
         }/>
+        <Footer />
       </Page>
     </MantineProvider>
   );
